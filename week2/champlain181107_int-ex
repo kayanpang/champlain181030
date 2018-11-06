@@ -1,0 +1,21 @@
+b = "88"
+c = int(b)
+print(type(c))
+mycalc = c*2
+print("The number " + b + " doubled is " + str(mycalc))
+
+print('The number {0} doubled is {1}' .format(b, mycalc))
+
+print('The number {1} doubled is {0}' .format(b, mycalc))
+
+print('The number {0} doubled is {1} {0} {1}' .format(b, mycalc))
+
+print('The number {0} doubled is {1}' .format(b, mycalc))
+
+print('*')
+print('*')
+print('*')
+
+print('*', end="")
+print('*')
+print('*')
