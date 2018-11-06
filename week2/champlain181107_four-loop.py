@@ -9,7 +9,7 @@ for t in range(4):
     print('*', end="")
 print("Program run has ended")
 
-for y in range(4):
+for y in range(0,4):
     print(str(y) + ":", end="")
     for x in range(y):
         print('*', end="")
