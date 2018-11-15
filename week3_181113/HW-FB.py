@@ -1,4 +1,4 @@
-for a in range(1,25):
+for a in range(1,26):
 
     if a % 3 == 0:
         print(str(a) + " fizz", end=" ")
