@@ -7,7 +7,7 @@ def make_album(artist, album):
 while True:
     artist = input("Enter an artist name > ")
     album = input("Enter an album name > ")
-    a_album = makealbum(artist, album)
+    a_album = make_album(artist, album)
     print(a_album)
 
     message = input("continue? (y/n)")
