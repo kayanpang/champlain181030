@@ -8,4 +8,10 @@ class Item:
     def print_item(self):
         line =
         for x in line:
+
+    def get_item_base_price(self):
+
+    def get_item_tzx_price(self):
+
+    def get_item_total(self):
             
