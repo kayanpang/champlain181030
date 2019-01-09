@@ -34,10 +34,10 @@ class Order:
         self.purchase_date = x
 
     def add_item(self, item: Item):
-        self.__item_list.append(item)
+        self.items.append(item)
 
-    def remove_item(sku):
-        self.__item_list.remove(sku)
+    def remove_item(item):
+        self.items.remove(item)
 
     def get_total_price(self):
         return sum(self.price: float)
