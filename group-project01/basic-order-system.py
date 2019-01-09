@@ -1,4 +1,6 @@
+import datetime
 class Item:
+    dot_line = '.' * 30
     def __init__(self, name, price, taxable):
         self.sku = sku
         self.name = name
@@ -6,24 +8,44 @@ class Item:
         self.taxable = taxable
 
     def print_item(self):
-        line =
-        for x in line:
+        print("self.name" + "len(dot_line) - len(self.name) - len(self.price)" + "self.price" + "self.taxable")
 
     def get_item_base_price(self):
+        return self.price
 
     def get_item_tax_price(self):
+        if (self.taxable == True):
+            return True
+        else:
+            return False
+
+    def get_tax(self):
+        if (self.taxable == True):
+            return self.price*0.05 + self.price*0.09975
+
 
     def get_item_total(self):
+        return self.get_item_base_price + self.get_tax
 
 class Order:
+    x = datetime.datetime.now("%Y-%m-%d %I:%M%p")
     def __init__(self, items, purchase_date):
-        self.items = items
-        self.purchase_date = purchase_date
+        self.items = []
+        self.purchase_date = x
 
-    def add_item(Item):
+    def add_item(self, item: Item):
+        self.__item_list.append(item)
 
     def remove_item(sku):
+        self.__item_list.remove(sku)
 
     def get_total_price(self):
+        return sum(self.price: float)
 
     def print_summary(self):
+        width = " "*50
+        width2 = " "*10
+        header = "ITEM" + width + "PRICE" + width2 + "TAXABLE"
+        line = "-"*len(header)
+        
+
