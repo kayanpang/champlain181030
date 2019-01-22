@@ -4,7 +4,7 @@ with open("person.csv", "rt") as f:
     line_counter = 1
 
     for row in reader:
-        if line_counter == 1
+        if line_counter == 1:
             pass
 
         else:

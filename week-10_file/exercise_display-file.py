@@ -16,7 +16,7 @@ while True:
         counter += 1
 
     print("-"*50)
-
+# check teacher's github for update
     a = input("Selection? >")
     myfile = listing[int(a) - 1]
 
