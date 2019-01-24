@@ -6,6 +6,6 @@ class Calculator:
 
     def get_min (self):
 
-    def Clear (self):
+    def Clear_list (self):
 
     def generate_random_data (self):
