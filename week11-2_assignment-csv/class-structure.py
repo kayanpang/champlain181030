@@ -1,5 +1,7 @@
+import datetime
 class Document:
-    def __init__(self, author = [], date):
+    def __init__(self, date, author = []):
+        # the parameter can be made as array?
         self.__author = author
         self.__date = datetime.datetime.now()
     def getAuthor(self):
@@ -19,7 +21,7 @@ class Email(Document):
     def getSubject(self):
         return self.__subject
     def getTo(self):
-        return.__to
+        return self.__to
 
 class Book(Document):
     def __init__(self, title = ""):
