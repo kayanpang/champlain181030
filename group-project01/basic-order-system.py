@@ -47,5 +47,5 @@ class Order:
         width2 = " "*10
         header = "ITEM" + width + "PRICE" + width2 + "TAXABLE"
         line = "-"*len(header)
-        
+
 
