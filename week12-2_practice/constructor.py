@@ -34,12 +34,14 @@ class Employee(Worker):
         return self.__salary
     def get_hourly_rate(self):
         return self.__salary / 261 / 8
+    # testcase
 
 
 class Contractor(Worker):
     def __init__(self, first_name: str, last_name: str, hire_date: datetime, hourly_rate: float):
         self.__hourly_rate = hourly_rate
         super().__init__(first_name, last_name, hire_date)
+        # testcase: can it be instantiated)
     def set_hourly_rate(self, hourly_rate: float):
         self.__hourly_rate = hourly_rate
     def get_hourly_rate(self):
