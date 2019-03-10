@@ -26,19 +26,19 @@ def is_alpha(s):
     return False
 
 
-# counter = 0
-# for item in Input_list:
-#     if is_number(item):
-#         print("Element # " + str(counter) + " " + str(item))
-#         if is_even(item):
-#             print("This is an even number")
-#         else:
-#             print("This is an odd number")
-#         if item < max():
-#             print(str(item) + " is not the highest number")
-#         else:
-#             print(str(item) + " is the highest number")
-#     counter += 1
+counter = 0
+for item in Input_list:
+    if is_number(item):
+        print("Element # " + str(counter) + " " + str(item))
+        if is_even(item):
+            print("This is an even number")
+        else:
+            print("This is an odd number")
+        if item < max():
+            print(str(item) + " is not the highest number")
+        else:
+            print(str(item) + " is the highest number")
+    counter += 1
 
 for character in Input_list:
     i = []
